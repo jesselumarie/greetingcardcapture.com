@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Greeting Card Capture</title>
+    <link href='../style.css' rel='stylesheet'>
+    <link rel='shortcut icon' href='./icon_transparent.png' type='image/x-icon'/>
+    <script src='../js/script.js'></script>
+  </head>
+  <body>
+    <div class='toolbar_container'>
+      <div class='toolbar_buttons_container'>
+        <a href='../' class='toolbar_item'>Home</a>
+        <a href='mailto:jesse.lumarie+greeting-card-keeper@gmail.com' class='toolbar_item'>Contact</a>
+      </div>
+    </div>
+    <div class='container'>
+      <h4 class='tagline_text'>An app to digitally save your greeting cards.</h4>
+      <div class='demo_container'>
+        <img class='iphone_mock' src='./iphone-without-screen.png' />
+        <video
+          src='./demo-horizontal.mp4'
+          autoplay
+          loop
+          muted
+          playsinline
+        />
+      </div>
+      <a id='down_arrow' onclick="javascript: handleDownArrowClick('step_two');">⌄</a>
+    </div>
+    <div class='spacer'></div>
+    <div class='container'>
+      <h4 class='tagline_text'>View your cards by sender and occasion.</h4>
+      <div class='demo_container'>
+        <img class='iphone_mock' id='step_two' src='./iphone-without-screen.png' />
+        <video
+          src='./demo-horizontal.mp4'
+          autoplay
+          loop
+          muted
+          playsinline
+        />
+      </div>
+      <a id='down_arrow' onclick="javascript: handleDownArrowClick('step_three');">⌄</a>
+    </div>
+    <div class='spacer'></div>
+    <div class='container'>
+      <h4 class='tagline_text'>Try it for free (save up to 10 cards). Or upgrade and save all the cards 🎉</h4>
+      <div class='demo_container'>
+        <img class='iphone_mock' id='step_three' src='./iphone-without-screen.png' />
+        <video
+          src='./demo-horizontal.mp4'
+          autoplay
+          loop
+          muted
+          playsinline
+        />
+      </div>
+      <a id='down_arrow' onclick="javascript: handleDownArrowClick('step_four');">⌄</a>
+    </div>
+    <div class='spacer'></div>
+    <div class='container'>
+      <div class='title'>
+        <p class='title_text'>Greeting Card Capture</p>
+      </div>
+      <a href='../about'>
+        <img class='title_image' src='../icon_transparent.png' />
+      </a>
+      <h4 class='tagline_text' id='step_four'>Download it today 💃</h4>
+      <a class='appstore_badge' href=''><img src='../download_app_badge.svg' /></a>
+    </div>
+  </body>
+</html>

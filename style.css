@@ -1,0 +1,81 @@
+html body{
+  background-color: aliceblue;
+}
+h1,h2,h3,h4,h5,h6,p,a{
+  font-family: 'Futura-Medium', sans-serif;
+   text-decoration: none;
+}
+
+a:hover{
+  cursor: pointer;
+}
+video {
+  transform: rotate(90deg);
+  transform-origin: bottom left;
+  position:  absolute;
+  top: -19.75vh;
+  left: 5.5vh;
+  height: 29vh;
+}
+
+.title_text {
+  font-size: x-large
+}
+
+.toolbar_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: space-between;
+}
+
+.toolbar_buttons_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.toolbar_item {
+  padding-right: 50px;
+  color: gray;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo_container {
+  position: relative;
+}
+
+.iphone_mock {
+  height: 70vh;
+  filter: drop-shadow(7px 7px 5px rgba(50, 50, 50, 50));
+}
+
+.title_image {
+  height: 50vh;
+  filter: drop-shadow(7px 7px 5px rgba(50, 50, 50, 50));
+}
+
+.tagline_text {
+  padding: 2vh
+}
+
+.appstore_badge {
+  padding: 5vh
+}
+
+.spacer {
+  padding-top: 10vh;
+}
+
+#down_arrow {
+  font-size: 128px;
+  line-height: 34px;
+  color: gray;
+}
