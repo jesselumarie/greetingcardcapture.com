@@ -62,6 +62,7 @@ video {
 .toolbar_item {
   padding-right: 50px;
   color: gray;
+  font-size: 3vh;
 }
 
 .container {
