@@ -173,3 +173,7 @@ video {
   -o-animation: bounce 1.5s ease 5s 3;
   animation: bounce 1.5s ease 5s 3;
 }
+
+#copyright {
+  color: gray;
+}
