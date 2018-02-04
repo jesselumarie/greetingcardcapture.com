@@ -3,7 +3,7 @@ html body{
   text-align: center;
 }
 h1,h2,h3,h4,h5,h6,p,a {
-  font-family: 'Futura-Medium', sans-serif;
+  font-family: 'Futura-Medium', 'Futura', sans-serif;
   text-decoration: none;
 }
 
@@ -106,7 +106,7 @@ video {
 
 .appstore_badge {
   height:7vh;
-  padding: 5vh;
+  margin-bottom: 5vh;
   z-index: 10;
 }
 
