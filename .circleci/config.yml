@@ -22,3 +22,12 @@ jobs:
             aws s3 sync src/ s3://greetingcardcapture.com --delete
             aws configure set preview.cloudfront true
             aws cloudfront create-invalidation --distribution-id $AWS_CLOUDFRONT_ID --paths '/*'
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - deploy:
+          filters:
+            branches:
+              only: master
