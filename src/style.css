@@ -34,13 +34,6 @@ a:hover{
   cursor: pointer;
 }
 
-video {
-  position:  absolute;
-  top: 9.75vh;
-  left: 5.735vh;
-  height: 51vh;
-}
-
 .title_text {
   font-size: 4vh
 }
@@ -76,13 +69,27 @@ video {
   position: relative;
 }
 
-.iphone_mock {
-  height: 70vh;
-  filter: drop-shadow(7px 7px 5px rgba(50, 50, 50, 50));
+.app_screenshot, .app_demo {
+  display: block;
+  width: min(78vw, 330px, calc(70vh * 1320 / 2868));
+  height: auto;
+  border-radius: 28px;
+  box-shadow: 0 14px 32px rgba(24, 33, 43, 0.16);
+}
+
+.app_demo {
+  width: min(86vw, 430px, calc(70vh * 742 / 1080));
+}
+
+.release_preview {
+  margin: 0 1rem 1rem;
+  color: #536171;
+  font-size: clamp(14px, 1.8vw, 18px);
 }
 
 .title_image {
-  height: 50vh;
+  width: min(50vh, 80vw);
+  height: auto;
   filter: drop-shadow(7px 7px 5px rgba(50, 50, 50, 50));
 }
 

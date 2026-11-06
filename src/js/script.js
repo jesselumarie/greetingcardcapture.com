@@ -11,3 +11,9 @@ if ( document.readyState !== 'loading') {
   setCopyrightYear()
   document.addEventListener("DOMContentLoaded", setCopyrightYear);
 }
+
+const demo = document.querySelector('.app_demo')
+if (demo && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  demo.autoplay = false
+  demo.pause()
+}
