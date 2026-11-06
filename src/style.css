@@ -69,12 +69,16 @@ a:hover{
   position: relative;
 }
 
-.app_screenshot {
+.app_screenshot, .app_demo {
   display: block;
   width: min(78vw, 330px, calc(70vh * 1320 / 2868));
   height: auto;
   border-radius: 28px;
   box-shadow: 0 14px 32px rgba(24, 33, 43, 0.16);
+}
+
+.app_demo {
+  width: min(86vw, 430px, calc(70vh * 742 / 1080));
 }
 
 .release_preview {
